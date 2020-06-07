@@ -132,7 +132,7 @@ case_bands <- cbind(case_projections, case_med,
                     case_lo_95, case_hi_95,
                     case_lo_99,case_hi_99)
 
-death_projection_template <- deaths_final %>% group_by(Country) %>%
+death_projections <- deaths_final %>% group_by(Country) %>%
          complete(Date = full_seq(c(min(Date),lastknownday+horizon),1)) %>%
          ungroup() %>%
          arrange(Country, Date) %>%
