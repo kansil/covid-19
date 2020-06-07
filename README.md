@@ -1,6 +1,18 @@
 # The METU KanSiL COVID-19 Model
 COVID 19 Case Projection Model for Turkey
 
+## Requirements
+
+- [R](https://www.r-project.org) 
+- [rstan & rstanarm](https://mc-stan.org/users/interfaces/rstanarm)
+- [tidyverse](https://www.tidyverse.org), specifically:
+  - ggplot2
+  - dplyr
+  - readr
+  - tidyr
+  - lubridate
+- [cowplot](https://cran.r-project.org/web/packages/cowplot/)
+
 ## Usage
 
 To fit data using all observations up to latest known day and project 20 days in the future: 
