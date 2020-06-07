@@ -1,4 +1,4 @@
-# covid-19
+# The METU KanSiL COVID-19 Model
 COVID 19 Case Projection Model for Turkey
 
 ## Usage
